@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "eco-friendly-renewable-bio-energy-logo-design-vector-illustration-life-logotype-circle-science-earth-creative-solar-idea-modern-157713015.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

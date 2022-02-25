@@ -11,6 +11,23 @@
 		4D37253327C93932004DE44B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37253227C93932004DE44B /* ContentView.swift */; };
 		4D37253527C93933004DE44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D37253427C93933004DE44B /* Assets.xcassets */; };
 		4D37253827C93933004DE44B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D37253727C93933004DE44B /* Preview Assets.xcassets */; };
+		4D37254027C93964004DE44B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37253F27C93964004DE44B /* HomeViewModel.swift */; };
+		4D37254227C9397E004DE44B /* SharedDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254127C9397E004DE44B /* SharedDataModel.swift */; };
+		4D37254527C939B4004DE44B /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254427C939B4004DE44B /* Award.swift */; };
+		4D37254727C939C9004DE44B /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254627C939C9004DE44B /* Step.swift */; };
+		4D37254927C939D6004DE44B /* StepList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254827C939D6004DE44B /* StepList.swift */; };
+		4D37254B27C939EB004DE44B /* StepAward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254A27C939EB004DE44B /* StepAward.swift */; };
+		4D37254D27C93A03004DE44B /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254C27C93A03004DE44B /* HealthStore.swift */; };
+		4D37255027C93A29004DE44B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37254F27C93A29004DE44B /* Home.swift */; };
+		4D37255227C93A3D004DE44B /* YourAwards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255127C93A3D004DE44B /* YourAwards.swift */; };
+		4D37255427C93A52004DE44B /* StepPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255327C93A52004DE44B /* StepPreview.swift */; };
+		4D37255627C93A9B004DE44B /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255527C93A9B004DE44B /* MainPage.swift */; };
+		4D37255827C93ABA004DE44B /* MoreAwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255727C93ABA004DE44B /* MoreAwardsView.swift */; };
+		4D37255A27C93ACF004DE44B /* AwardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255927C93ACF004DE44B /* AwardDetailView.swift */; };
+		4D37255C27C93AEB004DE44B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255B27C93AEB004DE44B /* SearchView.swift */; };
+		4D37255E27C93AFA004DE44B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255D27C93AFA004DE44B /* StaggeredGrid.swift */; };
+		4D37256027C93B11004DE44B /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255F27C93B11004DE44B /* CustomCorners.swift */; };
+		4D37256427C93D9E004DE44B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37256327C93D9E004DE44B /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,24 @@
 		4D37253227C93932004DE44B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D37253427C93933004DE44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D37253727C93933004DE44B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D37253F27C93964004DE44B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4D37254127C9397E004DE44B /* SharedDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDataModel.swift; sourceTree = "<group>"; };
+		4D37254427C939B4004DE44B /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		4D37254627C939C9004DE44B /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		4D37254827C939D6004DE44B /* StepList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepList.swift; sourceTree = "<group>"; };
+		4D37254A27C939EB004DE44B /* StepAward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepAward.swift; sourceTree = "<group>"; };
+		4D37254C27C93A03004DE44B /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		4D37254F27C93A29004DE44B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4D37255127C93A3D004DE44B /* YourAwards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourAwards.swift; sourceTree = "<group>"; };
+		4D37255327C93A52004DE44B /* StepPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPreview.swift; sourceTree = "<group>"; };
+		4D37255527C93A9B004DE44B /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		4D37255727C93ABA004DE44B /* MoreAwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreAwardsView.swift; sourceTree = "<group>"; };
+		4D37255927C93ACF004DE44B /* AwardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardDetailView.swift; sourceTree = "<group>"; };
+		4D37255B27C93AEB004DE44B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4D37255D27C93AFA004DE44B /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
+		4D37255F27C93B11004DE44B /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		4D37256127C93D9E004DE44B /* AwardForSteps2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AwardForSteps2.entitlements; sourceTree = "<group>"; };
+		4D37256327C93D9E004DE44B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D37256427C93D9E004DE44B /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +71,12 @@
 		4D37252427C93932004DE44B = {
 			isa = PBXGroup;
 			children = (
+				4D37254E27C93A1E004DE44B /* View */,
+				4D37254327C939A6004DE44B /* Model */,
+				4D37253E27C93950004DE44B /* ViewModel */,
 				4D37252F27C93932004DE44B /* AwardForSteps2 */,
 				4D37252E27C93932004DE44B /* Products */,
+				4D37256227C93D9E004DE44B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +91,7 @@
 		4D37252F27C93932004DE44B /* AwardForSteps2 */ = {
 			isa = PBXGroup;
 			children = (
+				4D37256127C93D9E004DE44B /* AwardForSteps2.entitlements */,
 				4D37253027C93932004DE44B /* AwardForSteps2App.swift */,
 				4D37253227C93932004DE44B /* ContentView.swift */,
 				4D37253427C93933004DE44B /* Assets.xcassets */,
@@ -65,6 +106,51 @@
 				4D37253727C93933004DE44B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D37253E27C93950004DE44B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D37253F27C93964004DE44B /* HomeViewModel.swift */,
+				4D37254127C9397E004DE44B /* SharedDataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D37254327C939A6004DE44B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D37254427C939B4004DE44B /* Award.swift */,
+				4D37254627C939C9004DE44B /* Step.swift */,
+				4D37254827C939D6004DE44B /* StepList.swift */,
+				4D37254A27C939EB004DE44B /* StepAward.swift */,
+				4D37254C27C93A03004DE44B /* HealthStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D37254E27C93A1E004DE44B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D37254F27C93A29004DE44B /* Home.swift */,
+				4D37255127C93A3D004DE44B /* YourAwards.swift */,
+				4D37255327C93A52004DE44B /* StepPreview.swift */,
+				4D37255527C93A9B004DE44B /* MainPage.swift */,
+				4D37255727C93ABA004DE44B /* MoreAwardsView.swift */,
+				4D37255927C93ACF004DE44B /* AwardDetailView.swift */,
+				4D37255B27C93AEB004DE44B /* SearchView.swift */,
+				4D37255D27C93AFA004DE44B /* StaggeredGrid.swift */,
+				4D37255F27C93B11004DE44B /* CustomCorners.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D37256227C93D9E004DE44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D37256327C93D9E004DE44B /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +224,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D37253327C93932004DE44B /* ContentView.swift in Sources */,
+				4D37256027C93B11004DE44B /* CustomCorners.swift in Sources */,
+				4D37254027C93964004DE44B /* HomeViewModel.swift in Sources */,
+				4D37255027C93A29004DE44B /* Home.swift in Sources */,
+				4D37255227C93A3D004DE44B /* YourAwards.swift in Sources */,
+				4D37255E27C93AFA004DE44B /* StaggeredGrid.swift in Sources */,
+				4D37254227C9397E004DE44B /* SharedDataModel.swift in Sources */,
+				4D37255627C93A9B004DE44B /* MainPage.swift in Sources */,
+				4D37255A27C93ACF004DE44B /* AwardDetailView.swift in Sources */,
+				4D37254527C939B4004DE44B /* Award.swift in Sources */,
+				4D37254927C939D6004DE44B /* StepList.swift in Sources */,
+				4D37254B27C939EB004DE44B /* StepAward.swift in Sources */,
 				4D37253127C93932004DE44B /* AwardForSteps2App.swift in Sources */,
+				4D37254D27C93A03004DE44B /* HealthStore.swift in Sources */,
+				4D37255C27C93AEB004DE44B /* SearchView.swift in Sources */,
+				4D37255427C93A52004DE44B /* StepPreview.swift in Sources */,
+				4D37254727C939C9004DE44B /* Step.swift in Sources */,
+				4D37255827C93ABA004DE44B /* MoreAwardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +368,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AwardForSteps2/AwardForSteps2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AwardForSteps2/Preview Content\"";
 				DEVELOPMENT_TEAM = 833UA26HF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,12 +400,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AwardForSteps2/AwardForSteps2.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AwardForSteps2/Preview Content\"";
 				DEVELOPMENT_TEAM = 833UA26HF4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app requires access to health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app requires access to health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
