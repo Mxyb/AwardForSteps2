@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var sharedData = SharedDataModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+        VStack {
+            
+            if sharedData.likedAwards.isEmpty{
+                
+                Group {
+                    MainPage()
+                        .environmentObject(sharedData)
+                    
+                }
+            }
+            else {
+                Image("NoAwards")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+                    .padding(.top,35)
+                
+                Text("No awards yet")
+                    .font(.custom(customFont, size: 25))
+                    .fontWeight(.semibold)
+            }
+        }
     }
 }

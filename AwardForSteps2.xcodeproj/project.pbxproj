@@ -28,6 +28,7 @@
 		4D37255E27C93AFA004DE44B /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255D27C93AFA004DE44B /* StaggeredGrid.swift */; };
 		4D37256027C93B11004DE44B /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37255F27C93B11004DE44B /* CustomCorners.swift */; };
 		4D37256427C93D9E004DE44B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37256327C93D9E004DE44B /* HealthKit.framework */; };
+		4D37256627C94A03004DE44B /* HealthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D37256527C94A03004DE44B /* HealthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		4D37255F27C93B11004DE44B /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		4D37256127C93D9E004DE44B /* AwardForSteps2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AwardForSteps2.entitlements; sourceTree = "<group>"; };
 		4D37256327C93D9E004DE44B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		4D37256527C94A03004DE44B /* HealthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				4D37253F27C93964004DE44B /* HomeViewModel.swift */,
 				4D37254127C9397E004DE44B /* SharedDataModel.swift */,
+				4D37256527C94A03004DE44B /* HealthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				4D37255627C93A9B004DE44B /* MainPage.swift in Sources */,
 				4D37255A27C93ACF004DE44B /* AwardDetailView.swift in Sources */,
 				4D37254527C939B4004DE44B /* Award.swift in Sources */,
+				4D37256627C94A03004DE44B /* HealthViewModel.swift in Sources */,
 				4D37254927C939D6004DE44B /* StepList.swift in Sources */,
 				4D37254B27C939EB004DE44B /* StepAward.swift in Sources */,
 				4D37253127C93932004DE44B /* AwardForSteps2App.swift in Sources */,
